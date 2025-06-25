@@ -301,7 +301,7 @@ if run_button:
             # 1. Set up LLM
             progress_bar.progress(10)
             gemini_llm = LLM(
-                model="gemini/gemini-2.0-flash",
+                model="gemini/gemini-2.5-flash",
                 temperature=0.7,
             )
 
