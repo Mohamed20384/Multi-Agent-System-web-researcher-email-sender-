@@ -57,7 +57,8 @@ cp .env.example .env
 # Edit .env with your credentials
 ```
 
-## 🏗️ System Architecture
+> ⚠️ GitHub does not render Mermaid diagrams in markdown by default.
+> To view the diagram, copy the code below to https://mermaid.live/edit
 
 ```mermaid
 graph TD
@@ -69,6 +70,7 @@ graph TD
     F --> G{Output Channels}
     G --> H[Email Report]
     G --> I[Markdown File]
-```
+    G --> J[Streamlit UI]
+
 
 
