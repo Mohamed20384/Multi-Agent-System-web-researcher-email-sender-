@@ -57,20 +57,9 @@ cp .env.example .env
 # Edit .env with your credentials
 ```
 
-> ⚠️ GitHub does not render Mermaid diagrams in markdown by default.
-> To view the diagram, copy the code below to https://mermaid.live/edit
+## 🧠 AI System Flow
 
-```mermaid
-graph TD
-    A[User Input] --> B(Research Agent)
-    B --> C[(Knowledge Base)]
-    C --> D(Analysis Agent)
-    D --> E[(Insights)]
-    E --> F(Email Agent)
-    F --> G{Output Channels}
-    G --> H[Email Report]
-    G --> I[Markdown File]
-    G --> J[Streamlit UI]
+![AI System Diagram](assets/ai-system-diagram.svg)
 
 
 
