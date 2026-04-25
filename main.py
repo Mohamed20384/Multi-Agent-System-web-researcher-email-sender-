@@ -486,3 +486,4 @@ st.markdown("""
     <p>AI Research Crew Pro • Powered by CrewAI and Gemini</p>
 </div>
 """, unsafe_allow_html=True)
+

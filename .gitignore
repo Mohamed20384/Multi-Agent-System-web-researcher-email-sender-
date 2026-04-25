@@ -4,7 +4,7 @@ __pycache__/
 *.pyo
 *.pyd
 *.sqlite3
-.env.*
+
 *.egg-info/
 .vscode/
 .idea/

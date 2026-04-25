@@ -7,7 +7,7 @@ load_dotenv()
 
 sender_email = os.getenv("EMAIL_USER")
 sender_password = os.getenv("EMAIL_PASS")
-recipient_email = "ma1303507@gmail.com"  # change to your real address
+recipient_email = "ma1303507@gmail.com"
 
 msg = MIMEText("Test email from Python SMTP!")
 msg["Subject"] = "Test Email"
